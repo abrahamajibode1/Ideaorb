@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 100vh;
+}
+.menu {
+    display: flex;
+    background-color: #1e1e1e;
+    height: 10vh;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    gap: 20%;
+}
+
+.navbar {
+    display: flex;
+    color: white;
+    font-size: 0.5rem;
+    font-weight: 100;
+    font-family: Comfortaa;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar:hover {
+    color: #c6ff00;
+}
+
+.menu__logo {
+    width: 8rem;
+    height: 50%;
+    padding: 0.8rem 8rem;
+}
+
+.header {
+    display: flex;
+    background-image: linear-gradient(to top right, #4d4682 40%, #5ec8b9 79%, rgba(198, 255, 0, 0.5) 100%);
+    height: 85vh;
+}
+
+.box__image--ellipse {
+    position: relative;
+    width: 5vw;
+    height: 60vh;
+    margin: 7rem, 5rem;
+    
+}
+
+.image__ellipse {
+    position: absolute;
+    width: 25vw;
+    height: 55vh;
+    margin: 5rem;
+}
+
+.image__cuate {
+    position: absolute;
+    width: 23vw;
+    height: 46vh; 
+    margin: 5rem; 
+}
+
+.box__header {
+    width: 45vw;
+    height: 20vh;
+    margin: 3.5rem;
+    margin-left: 6rem;
+}
+
+.box__header--research {
+    font-family: 'Comfortaa';
+    font-weight: 100;
+    font-size: 3rem;
+    line-height: 1;
+    color: white;
+}
+
+.highlight {
+    color: #c6ff00;
+}
+
+.box__header--process {
+    font-family: inter;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+}
+
+.btn {
+    font-family: inter;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 3.5em;
+    width: 20vw;
+    border-radius: 8px;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #1e1e1e;
+    background-color: white;
+}
+
+.box {
+    display: flex;
+    margin: 7rem;
+    margin-left: 20rem;
+    gap: 5rem;
+}
+
+.box__image {
+    width: 20vw;
+    height: 35vh;
+}
+
+.box__mission {
+    width: 20vw;
+    height: 19vh;
+    line-height: 1.5rem;
+}
+
+.box__image--corporate {
+    width: 25vw;
+    height: 43vh;
+    margin: 3.5rem;
+    
+}
+
+.box__mission--heading {
+    font-family: comfortaa;
+    font-weight: normal;
+    line-height: 3rem;
+}
+
+.box__mission--vision {
+    font-family: inter;
+    font-weight: 300;
+}
