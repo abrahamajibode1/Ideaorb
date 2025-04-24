@@ -2,13 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    height: 100vh;
-}
+
 .menu {
     display: flex;
     background-color: #1e1e1e;
-    height: 10vh;
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
     gap: 20%;
@@ -16,11 +13,14 @@ body {
 
 .navbar {
     display: flex;
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 5rem;
     color: white;
     font-size: 0.5rem;
     font-weight: 100;
     font-family: Comfortaa;
-    padding: 1.5rem;
     cursor: pointer;
 }
 
@@ -29,9 +29,11 @@ body {
 }
 
 .menu__logo {
-    width: 8rem;
-    height: 50%;
-    padding: 0.8rem 8rem;
+    width: 30%;
+    height: 5vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem 8rem;
 }
 
 .header {
@@ -42,9 +44,9 @@ body {
 
 .box__image--ellipse {
     position: relative;
-    width: 5vw;
-    height: 60vh;
-    margin: 7rem, 5rem;
+    width: 50%;
+    margin: 0 auto;
+    max-width: 800px;
     
 }
 
@@ -63,10 +65,11 @@ body {
 }
 
 .box__header {
-    width: 45vw;
-    height: 20vh;
-    margin: 3.5rem;
-    margin-left: 6rem;
+    width: 50%;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 5%;
+    
 }
 
 .box__header--research {
@@ -108,9 +111,11 @@ body {
 
 .box {
     display: flex;
-    margin: 7rem;
-    margin-left: 20rem;
-    gap: 5rem;
+    width: 85%;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 3.5rem;
+    gap: 7rem;
 }
 
 .box__image {
