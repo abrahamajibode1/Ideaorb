@@ -2,94 +2,113 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+.IdeaOrb__landing-page {
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
 .menu {
-    display: flex;
     background-color: #1e1e1e;
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
-    gap: 20%;
+    padding: 2em;
 }
 
-.navbar {
+.menu__content {
     display: flex;
-    width: 60%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 1.5rem 5rem;
-    color: white;
-    font-size: 0.5rem;
-    font-weight: 100;
-    font-family: Comfortaa;
-    cursor: pointer;
-}
-
-.navbar:hover {
-    color: #c6ff00;
+    align-items: center;
+    max-width: 1400px;
+    
 }
 
 .menu__logo {
-    width: 30%;
-    height: 5vh;
-    max-width: 800px;
+    max-width: 910px; 
     margin: 0 auto;
-    padding: 1.5rem 8rem;
+}
+
+.navbar {
+    max-width: 910px;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover{
+    color: #4d4682;
+    font-size: 1.2em;
 }
 
 .header {
+    height: 70vh;
+    background-image: linear-gradient(90deg, #4d4682 40%, #5ec8b9 79%, rgba(198, 255, 0, 0.5) 100%);
+}
+
+.header__content {
     display: flex;
-    background-image: linear-gradient(to top right, #4d4682 40%, #5ec8b9 79%, rgba(198, 255, 0, 0.5) 100%);
-    height: 85vh;
-}
-
-.box__image--ellipse {
-    position: relative;
-    width: 50%;
-    margin: 0 auto;
-    max-width: 800px;
-    
-}
-
-.image__ellipse {
-    position: absolute;
-    width: 25vw;
-    height: 55vh;
-    margin: 5rem;
-}
-
-.image__cuate {
-    position: absolute;
-    width: 23vw;
-    height: 46vh; 
-    margin: 5rem; 
+    justify-content: center;
+    max-width: 1400px;
+    padding-top: 4em;
 }
 
 .box__header {
-    width: 50%;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 5%;
-    
+    max-width: 650px;
+    margin: 0;
+    flex: 1;
 }
 
 .box__header--research {
-    font-family: 'Comfortaa';
-    font-weight: 100;
-    font-size: 3rem;
-    line-height: 1;
-    color: white;
-}
-
-.highlight {
-    color: #c6ff00;
+    font-family: Comfortaa;
+    font-size: 3em;
+    font-weight: 450;
+    color: #fff;
+    line-height: 55px;
+    max-width: 600px;
 }
 
 .box__header--process {
     font-family: inter;
-    font-size: 2rem;
-    font-weight: 100;
-    line-height: 1;
-    color: white;
+    font-size: 2em;
+    font-weight: 200;
+    color: #fff;
+    line-height: 40px;
+    max-width: 580px;
+    padding-top: 0.8em;
+    
+}
+
+.box__image--ellipse {
+    position: relative;
+    max-width: 380px;
+    margin: 0;
+    flex: 1;
+}
+
+.image__ellipse {
+    position: absolute;
+    max-width: 360px;
+
+}
+
+.image__cuate {
+    position: absolute;
+    max-width: 320px;
+    padding: 2em 1.5em;
+}
+
+.highlight {
+    color: #c6ff00;
 }
 
 .btn {
@@ -102,47 +121,87 @@
     background-color: yellow;
     border: none;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 .btn:hover {
     color: #1e1e1e;
     background-color: white;
+    font-size: 1.1rem;
 }
 
 .box {
     display: flex;
-    width: 85%;
+    justify-content: center;
+    max-width: 900px;
     margin: 0 auto;
-    max-width: 800px;
-    padding: 3.5rem;
-    gap: 7rem;
+    margin-top: 130px;
 }
 
 .box__image {
-    width: 20vw;
-    height: 35vh;
-}
-
-.box__mission {
-    width: 20vw;
-    height: 19vh;
-    line-height: 1.5rem;
-}
-
-.box__image--corporate {
-    width: 25vw;
-    height: 43vh;
-    margin: 3.5rem;
+    max-width: 350px;
+    margin: 0 auto;
     
 }
 
-.box__mission--heading {
-    font-family: comfortaa;
-    font-weight: normal;
-    line-height: 3rem;
+.box__mission {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
-.box__mission--vision {
+.box__mission--heading {    
+    font-family: comfortaa;
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.box__mission--vision {  
     font-family: inter;
     font-weight: 300;
+    font-size: 1.2rem;
+    max-width: 350px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    max-width: 950px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.box__mission2 {
+    max-width: 320px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.box__image--corporate {
+    max-width: 350px;
+    height: 55vh;
+    margin: 0 auto;
+    padding-top: 4em;
+    
+}
+
+.box__mission--heading2 {    
+    font-family: comfortaa;
+    font-weight: 500;
+    font-size: 3.5em;
+    line-height: 1.5em;
+}
+
+.box__mission--vision2 {  
+    font-family: inter;
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 650px;
+    line-height:25px;
+    margin-top: 25px;
+}
+
+@media (max-width: 768px) {
 }
